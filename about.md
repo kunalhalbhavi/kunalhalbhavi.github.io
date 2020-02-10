@@ -1,4 +1,5 @@
 # About
 
-This is where you put the contents of your *About* page. Like all your pages, it's in [Markdown](https://guides.github.com/features/mastering-markdown/) format.
+Hello and welcome to this blog. My name is Kunal. I am a developer having experience in microsoft technologies such as webforms,webapi,mvc,mssql.
 
+I like reading and work for a technology firm that serves my need of earning & living.
