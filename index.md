@@ -1,7 +1,3 @@
-Hello and welcome to this blog. Edit the `index.md` file to change this content. All pages on the blog, including this one, use [Markdown](https://guides.github.com/features/mastering-markdown/). You can include images:
+Hello and welcome to this blog. My name is Kunal. I am a developer having experience in microsoft technologies such as webforms,webapi's,mvc,mssql.I also have a bit of knowledge of mongodb database.
 
-![Image of fast.ai logo](images/logo.png)
-
-## This is a title
-
-And you can include links, like this [link to fast.ai](https://www.fast.ai). Posts will appear after this file. 
+I like reading and work for a technology firm that serves my need of earning & living
