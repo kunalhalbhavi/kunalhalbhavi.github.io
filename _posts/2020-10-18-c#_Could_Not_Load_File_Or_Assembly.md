@@ -7,10 +7,10 @@ it gave error like : "Could not load file or assembly "System.Net.Http, Version=
 > What Worked For Me :
 - Removed all binding redirects from web.config.
 - Added this to the .csproj file:
- <PropertyGroup>
-  <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
-  <GenerateBindingRedirectsOutputType>true</GenerateBindingRedirectsOutputType>
-</PropertyGroup>
+- `code`<PropertyGroup>
+-  `code` <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+- `code` <GenerateBindingRedirectsOutputType>true</GenerateBindingRedirectsOutputType>
+-  `code` </PropertyGroup>
 - ReBuild the project
 - Copied the redirects from the (WebAppName).dll.config file to application's web.config file
 - Removed the above snipped from the .csproj file (In 2nd Step)
