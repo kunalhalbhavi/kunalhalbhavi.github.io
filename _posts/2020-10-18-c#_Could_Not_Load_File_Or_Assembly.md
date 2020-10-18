@@ -5,8 +5,8 @@ Recently, while working on a project, I have to upgrade my mvc web app from .Net
 it gave error like : *"Could not load file or assembly "System.Net.Http, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" or one of its dependencies. The system cannot find the file specified."* 
 
 > What Worked For Me :
-- Removed all binding redirects from web.config.
-- Added this below code to the .csproj file: <br/>
+- Removed all binding redirects from web.config
+- Added below code to the .csproj file: <br/>
  `<PropertyGroup>
   <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
   <GenerateBindingRedirectsOutputType>true</GenerateBindingRedirectsOutputType>
