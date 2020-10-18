@@ -6,7 +6,7 @@ it gave error like : "Could not load file or assembly "System.Net.Http, Version=
 
 > What Worked For Me :
 - Removed all binding redirects from web.config.
-- Added this below code to the .csproj file:
+- Added this below code to the .csproj file: <br/>
  `<PropertyGroup>
   <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
   <GenerateBindingRedirectsOutputType>true</GenerateBindingRedirectsOutputType>
